@@ -1,0 +1,50 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer circular chat bubble -->
+    <path
+        android:fillColor="#392653"
+        android:pathData="M50,8
+            C29,8 12,23 12,43
+            C12,55 18,65 28,71
+            L24,87
+            C23,90 26,92 29,90
+            L43,78
+            C45,79 48,79 50,79
+            C71,79 88,64 88,43
+            C88,23 71,8 50,8 Z" />
+
+    <!-- Ivory timer face -->
+    <path
+        android:fillColor="#FFF9F0"
+        android:pathData="M50,25
+            A18,18 0,1 0,50 61
+            A18,18 0,1 0,50 25 Z" />
+
+    <!-- Timer outline -->
+    <path
+        android:fillColor="#392653"
+        android:pathData="M50,27
+            A16,16 0,1 0,50 59
+            A16,16 0,1 0,50 27 Z
+            M50,30
+            A13,13 0,1 1,50 56
+            A13,13 0,1 1,50 30 Z" />
+
+    <!-- Timer hands -->
+    <path
+        android:strokeColor="#392653"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M50,35 L50,43 L57,48" />
+
+    <!-- Center point -->
+    <path
+        android:fillColor="#392653"
+        android:pathData="M52,43 A2,2 0,1 1,48 43 A2,2 0,1 1,52 43" />
+
+</vector>
